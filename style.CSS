@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(rgba(92, 155, 238, 0.5),rgba(152, 180, 156, 0.5)), url('./pexels-the-lazy-artist-gallery-1642125.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+.container{
+     max-width: 300px;
+     margin:auto;
+     margin-top: 70px;
+     background-color:rgba(89, 157, 245, 0.5);
+     padding-top:  30px;
+     border-radius: 15px;
+     box-sizing: border-box;
+
+}
+h2 {
+    color:#fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    
+}
+.villes {
+    
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    background-color: aquamarine
+
+}
+#prix{
+    
+    outline: none;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 3px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    
+  
+}
+select{
+    display: block;
+    width: 100%;
+    background-color: rgb(194, 238, 194);
+    
+}
+button {
+    width: 60%;
+    border-radius: 12px;
+    border: solid;
+    outline: none;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(90, 190, 190);
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+.botton {
+    font-weight: inherit;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+
+}
+
